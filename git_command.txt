@@ -1,0 +1,31 @@
+for first time:
+==============
+connecting/config :
+git config --global user.email "hi.itsarko@gmail.com"
+git config --global user.username hiitsarko
+
+adding:
+=======
+git init       ------>(once .git created we don't need to add further)
+git add filename
+git commit -m "message"
+git remote add origin https://github.com/hiitsarko/DemoProject.git    ----->(once remote origin added we don't need to add further)
+git push -u origin master
+
+Once created then from next time:
+============================
+git add filename
+git commit -m "message"
+git push -u origin master
+
+Creating branch
+=======================
+git branch --->show all branch
+git branch branchName ---->create branch name
+git git checkout branchName --->switch and active branchName
+git checkout -b branchName (same as above 2)
+git merge branchName   --->merging branchName  with current branch
+git pull    --->pulling
+git push --set-upstream origin branchName  --->push the local branch  so that it created on github ui but we have to do it only once
+
+
