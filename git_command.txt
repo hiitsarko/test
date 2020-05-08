@@ -22,7 +22,7 @@ Creating branch
 =======================
 git branch --->show all branch
 git branch branchName ---->create branch name
-git git checkout branchName --->switch and active branchName
+git checkout branchName --->switch and active branchName
 git checkout -b branchName (same as above 2)
 git merge branchName   --->merging branchName  with current branch
 git pull    --->pulling
