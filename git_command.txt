@@ -29,3 +29,6 @@ git pull    --->pulling
 git push --set-upstream origin branchName  --->push the local branch  so that it created on github ui but we have to do it only once
 
 
+Deleting a branch
+=================
+git branch -d branchName
