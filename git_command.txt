@@ -32,3 +32,4 @@ git push --set-upstream origin branchName  --->push the local branch  so that it
 Deleting a branch
 =================
 git branch -d branchName
+git push -d origin branchName
